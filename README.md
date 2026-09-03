@@ -61,3 +61,10 @@ Abre `notebook_analisis.ipynb` (por ejemplo, en VSCode o Jupyter Notebook) y eje
 2. Limpia las columnas `Price` (a número decimal) y `Rating` (a número entero).
 3. Valida que no existan valores nulos ni duplicados.
 4. Genera las gráficas de distribución de precios, categorías con más libros, precio promedio por categoría, y la comparación entre rating y precio promedio.
+
+## Hallazgos
+Tras el análisis dentro de `notebook_analisis.ipynb`, se encontraron piezas clave de información para hacer decisiones de negocio:
+
+1. Hay 1000 libros en el catálogo completo, con precio promedio de £35.07
+2. El catálogo tiene  19.6% de libros con 5 estrellas
+3. En promedio, el precio de un libro tiende a aumentar conforme sube su calificación
